@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(restaurant-background.png);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: monospace;
+    font-size: 16px;
+    color: 	#404040;
+}
+h1{
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 1.5rem;
+}
+h3{
+    text-align: center;
+}
+hr{
+    margin: 1rem 30%;
+}
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkred;
+    color: whitesmoke;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 3rem;
+
+}
+ul{
+    list-style-type: none;
+
+    flex-direction: row;
+}
+li{
+    display: inline-block;
+    padding: .5rem;
+    font-size: 24px;
+    font-family: monospace;
+}
+
+#main{
+    background-color: rgb(255,255,255, .85);
+    height: auto;
+    width: auto;
+    margin:0 10% 10% 10%;
+
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    border-radius: 3rem;
+}
+
+/* stuff for home page */
+#ama-outside{
+    width: 400px;
+    border-radius: 3rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: block;
+    border: 1px #a6a6a6 solid;
+}
+
+/* stuff for menu page */
+#ama-meal{
+     width: 400px;
+    border-radius: 3rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: block;
+    border: 1px #a6a6a6 solid;
+}
+
+/* stuff for contact page */
+#contact-info{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 0 auto;
+    width: 500px;
+    padding-top: 1rem;
+
+}
+#contact-info i{
+    grid-column: 1/2;
+    text-align: right;
+    font-size: 24px;
+
+}
+#contact-info p{
+    grid-column: 2/3;
+    padding-top: .25rem;
+    padding-left:1rem;
+}
+
+#map-embed{
+    padding-top: 3rem;
+}
+
+#map-embed iframe{
+    width: 450px;
+    height: 300px;
+    border-radius: 1rem;
+    border: 1px #a6a6a6 solid;
+    margin: 0 auto;
+    display: block;
+
+}
+
+@media screen and (max-width: 600px){
+    #main{
+        height: 100vh;
+    }
+    #ama-outside{
+        width: 90%;
+
+
+    }
+}

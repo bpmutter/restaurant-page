@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(restaurant-background.png);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: monospace;
+    font-size: 16px;
+    color: 	#404040;
+}
+h1{
+    text-align: center;
+    font-size: 2em;
+}
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkred;
+    color: whitesmoke;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+ul{
+    list-style-type: none;
+
+    flex-direction: row;
+}
+li{
+    display: inline-block;
+    padding: .5rem;
+    font-size: 24px;
+}

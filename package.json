@@ -1,0 +1,14 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "restaurant page for odin project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ben perlmutter",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.41.5"
+  }
+}
